@@ -83,8 +83,19 @@ body {
 }
 
 .btn:hover,
-.btn:focus,
+.btn:focus {
+  font-weight: 700;
+  text-shadow: 0 3px 7px rgb(160, 157, 157);
+}
+
 .btn:active {
+  font-weight: 700;
+  text-shadow: 0 3px 7px rgb(160, 157, 157);
+  padding-left: 0.5rem;
+  border-left: 10px solid aquamarine;
+}
+
+.btn.active {
   font-weight: 700;
   text-shadow: 0 3px 7px rgb(160, 157, 157);
   padding-left: 0.5rem;
